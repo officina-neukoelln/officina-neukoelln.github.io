@@ -38,7 +38,7 @@
         "#000000"
       ]
     },
-    "favicon": "@PROJECT_PATH@/assets/images/officina-fav-128x128.png",
+    "favicon": "@PROJECT_PATH@/assets/images/officina-fav-48x48-1.png",
     "noImageResize": "",
     "google-analytics": ""
   },
