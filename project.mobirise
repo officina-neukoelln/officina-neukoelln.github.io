@@ -796,7 +796,7 @@
               "background-color": "@bg-value"
             },
             ".media-container-row .mbr-text P": {
-              "color": "#2d2d2d"
+              "color": "#ffffff"
             }
           },
           "_name": "footer6",
