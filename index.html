@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+  <!-- 301 Permanent redirection to the new website -->
+  <meta http-equiv="refresh" content="0; url=https://officina.berlin">
+
   <!-- Site made with Mobirise Website Builder v4.2.3, https://mobirise.com -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,7 +24,23 @@
   <link rel="stylesheet" href="assets/mobirise-gallery/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
-  
+  <style>
+    #redirection {
+      width: 100vw;
+      background: red;
+      color: #fff;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1050;
+    }
+
+    #redirection a {
+      color: #0800ff;
+      text-decoration: underline;
+    }
+  </style>
   
 </head>
 <body>
@@ -38,6 +58,9 @@
 </script>
 <!-- /Google Analytics -->
 
+<div id="redirection">
+  <div><span>⚠️</span>This page has been moved to <a href="https://officina.berlin">https://officina.berlin</a><span class="emoji">⚠️</span></div>
+</div>
 
 <section class="menu cid-qtODlus5lb" once="menu" id="menu1-g" data-rv-view="52">
 
